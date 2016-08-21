@@ -21,12 +21,12 @@ function email() {
         service: "Gmail",
         auth: {
             user: "epicshaunak@gmail.com",
-            pass: "isCool1248"
+            pass: "****"
         }
     });
     smtpTransport.sendMail({
         from: "Shaunak Kale", // sender address
-        to: "vedavati@gmail.com", // comma separated list of receivers
+        to: "****", // comma separated list of receivers
         subject: "WARNING!", // Subject line
         text: "Motion has been detected!" // plaintext body
     }, function(error, response) {
@@ -38,7 +38,7 @@ function email() {
     });
     smtpTransport.sendMail({
         from: "Shaunak Kale", // sender address
-        to: "anantkale@gmail.com", // comma separated list of receivers
+        to: "****", // comma separated list of receivers
         subject: "WARNING!", // Subject line
         text: "Motion has been detected!" // plaintext body
     }, function(error, response) {
